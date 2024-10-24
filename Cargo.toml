@@ -1,0 +1,9 @@
+[package]
+name = "r1_software"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = {version="0.12.1", features=["image", "canvas"]}
+tokio = {version = "1", features=["full"]}
+hidapi = "2.6.0"
